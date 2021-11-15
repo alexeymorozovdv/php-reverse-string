@@ -3,5 +3,5 @@
 require_once 'ReverseString.php';
 
 $result = new ReverseString();
-echo $result->revertCharacters("Привет! Давно не виделись."); // Тевирп! Онвад ен ьсиледив.
+echo $result->reverse("Привет! Давно не виделись."); // Тевирп! Онвад ен ьсиледив.
 
