@@ -7,7 +7,7 @@ require_once 'ReverseString.php';
 class ReverseTest extends TestCase
 {
     public function test_reverse() {
-        $string = new ReverseString();
-        $this->assertSame( '!торобоан акортС', $string->reverse('Строка наоборот!') );
+        $string = 'Строка наоборот!';
+        $this->assertSame( '!торобоан акортС', ReverseString::reverse('Строка наоборот!'));
     }
 }
