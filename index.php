@@ -27,7 +27,7 @@ if (isset($_POST['string']) && !empty($_POST['string'])) {
 </form>
 
 <?php
-    if ($result) { ?>
+    if (isset($result)) { ?>
         <p>Дана строка: <?= $string ?></p>
         <p>Результат: <?= $result ?></p>
     <?php }
