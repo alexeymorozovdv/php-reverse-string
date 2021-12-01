@@ -23,7 +23,7 @@ if (isset($_POST['string']) && !empty($_POST['string'])) {
 <form action="/" method="post">
     <label for="string">Введите строку</label>
     <input type="text" name="string">
-    <input type="submit" value="Revert!">
+    <input type="submit" value="Reverse!">
 </form>
 
 <?php
